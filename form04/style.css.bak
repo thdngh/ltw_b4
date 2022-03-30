@@ -1,0 +1,38 @@
+body{
+	font-family: Arial;
+	font-size:11pt;
+}
+
+th{
+	font-size:16pt;
+	background:blue;
+    color:white;
+}
+td {
+    padding: 5px;
+}
+
+input{
+    border: 1px dotted lightblue;
+    padding: 5px ;
+    background: lightblue;
+    
+}
+
+table {
+
+    padding: 100px;
+    border-collapse:collapse;
+    background: #fff0f5;
+}
+
+textarea{
+    background: lightblue;
+}
+button {
+	background: blue;
+	border-radius: 5px;
+    color: white;
+    border: 5px;
+    padding: 5px 20px;
+}

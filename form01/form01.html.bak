@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FORM 01</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script src="check.js"> </script>
+</head>
+
+<body>
+	<form name="f" action="https://fit.agu.edu.vn/demo.php" method="get">
+		<table border="1" width="400px" align='center'>
+			<tr>
+				<th colspan="2">THÔNG TIN ĐĂNG NHẬP</th>
+			</tr>
+			<tr>
+				<td>Tên Đăng Nhập :</td>
+				<td><input  type="text" name="TenDangNhap"   ></td>
+			</tr>
+			<tr>
+				<td>Mật khẩu:</td>
+				<td><input type="password" name="MatKhau" ></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+				<button clickon="return check()">Đăng nhập</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>
